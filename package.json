@@ -1,0 +1,26 @@
+{
+  "name": "drone-blair-cf",
+  "version": "0.0.1",
+  "description": "Container to validate cloud formation with the permissions you have and update/create the implementation of the templates",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.nordstrom.net/iv/drone-blair-cf.git"
+  },
+  "keywords": [
+    "CloudFormation",
+    "docker",
+    "drone"
+  ],
+  "author": "Joachim Hill-Grannec <joachim@liffft.com>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.4.6",
+    "immutable": "^3.8.1",
+    "request": "^2.73.0"
+  }
+}
