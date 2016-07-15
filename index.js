@@ -21,7 +21,7 @@ module.exports = {
       console.log("Sorry but you must use a verfied YML to Instance role");
       return 1;
     }
-    var config;
+    var config ={};
     if (aws_access_key && aws_secret_key){
       config = {"accessKeyId": aws_access_key, "secretAccessKey": aws_secret_key};
     }
