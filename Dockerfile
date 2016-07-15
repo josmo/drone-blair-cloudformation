@@ -4,4 +4,4 @@ WORKDIR /usr/src/app
 COPY package.json /usr/src/app/
 RUN npm install
 copy . /usr/src/app
-CMD [ "npm", "start" ]
+CMD [ "node", "/usr/src/app/index.js" ]
