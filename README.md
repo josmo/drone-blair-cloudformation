@@ -31,5 +31,5 @@ docker run --rm                     \
   -e PLUGIN_SECRETO_KEY=<secret> \
   -v $(pwd):$(pwd)                  \
   -w $(pwd)                         \
-  josmo/blair-cloudformation
+  josmo/drone-blair-cloudformation
 ```
