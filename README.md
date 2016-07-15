@@ -16,7 +16,7 @@ npm install
 Build the docker image with the following commands:
 
 ```
-docker build --rm=true -t josmo/blair-cloudformation .
+docker build --rm=true -t josmo/drone-blair-cloudformation .
 ```
 
 ## Usage
