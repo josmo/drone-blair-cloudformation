@@ -28,7 +28,7 @@ docker run --rm                     \
   -e PLUGIN_SOURCE=<source>         \
   -e PLUGIN_REGION=<region>         \
   -e PLUGIN_ACCESS_KEY=<token>      \
-  -e PLUGIN_SECRETO_KEY=<secret> \
+  -e PLUGIN_SECRET_KEY=<secret> \
   -v $(pwd):$(pwd)                  \
   -w $(pwd)                         \
   josmo/drone-blair-cloudformation
